@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  /* ======common css====== */
+  .d-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .margin{
+    margin: 0 9%;
+  }
+
+  .col-5{
+    width: 48%;
+  }
+
+  /* header */
+
+  .header{
+    background: rgb(238, 199, 199);
+    padding: 10px;
+  }
+
+  .header .logo{
+    font-size: 30px;
+    color: rgb(240, 57, 246);  }
+
+  .header nav a{
+    margin-right: 10px;
+    font-size: 25px;
+
+  }
+
+  /* ==Order Now== */
+.order-now{
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+.order-now .or-1{
+color: red;
+}
+.order-now .or-2{
+  color: black;
+}
+
+  /* Form */
+.s-form{
+  padding: 40px;
+}
+.mm-div{
+  background: rgb(216, 221, 216);
+  padding: 10px;
+  border-radius: 10px;
+} 
+.s-form .mm-div img{
+  border-radius: 10px;
+}
+.s-form .order form{
+  padding: 5px;
+}
+.inputbox{
+  display: flex;
+  gap: 10px;
+}
+  
+section .order form input{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: solid;
+  border-color: rgb(120, 131, 140);
+  border-radius: 5px;
+
+}
+.btn{
+  color: brown;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: solid;
+  margin-top: 20px;
+}
+
+
+
+/* ======footer====== */
+.footer{
+  background: black;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  color: rgb(243, 18, 18);
+  text-align: center;
+}
+.footer .s-media a{
+  margin: 0 20px;
+  border: solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+.footer .f-s-2{
+  margin-top: 20px;
+  padding: 40px;
+}
+.footer .f-s-2 .cr{
+  color: white;
+  margin: 0 20px;
+  font-size: 25px;
+}
+.fnt-s{
+  font-size: 25px;
+}
+/* ====-----==== */
+.inpt-area{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: solid;
+  border-color: rgb(120, 131, 140);
+  border-radius: 5px;
+
+}
